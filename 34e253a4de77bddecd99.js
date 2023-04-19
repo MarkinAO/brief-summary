@@ -1,1 +1,0 @@
-var eventBtn=document.querySelector(".event-btn");setTimeout((function(){eventBtn.classList.remove("visually-hidden")}),4e3);

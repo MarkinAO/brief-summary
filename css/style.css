@@ -1,0 +1,88 @@
+.bg-1 {
+    background-color: #75825A;
+}
+
+.bg-2 {
+    background-color: #EFCD76;
+}
+
+.c-1 {
+    color: #75825A;
+}
+
+.c-2 {
+    color: #EFCD76;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.header-badge {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.messenger {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+}
+
+.messenger_wa {
+    background-image: url(../img/wa.webp);    
+}
+
+.messenger_tg {
+    background-image: url(../img/tg.webp);
+}
+
+.messenger_tel {
+    background-image: url(../img/tel.webp);
+}
+
+.m-a {
+    margin: auto;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+.event-btn {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    transition: all 1.5s ease;
+}
+
+.event-btn_description {
+    position: absolute;
+    padding: 5px;
+    top: 28px;
+    left: -227px;
+    width: 220px;
+    background-color: #0dcaf0;    
+}
+
+.event-btn_description::after {
+    content: '';
+   border: 8px solid transparent;
+   border-left: 9px solid #0dcaf0;
+   position: absolute;
+   right: -16px;
+   top: 50%;
+   margin-top: -8px;
+}
