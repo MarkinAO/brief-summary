@@ -56,33 +56,19 @@
     visibility: hidden;
 }
 
-
-
-.event-btn {
-    position: fixed;
-    right: 2%;
-    bottom: 2%;
-    padding: 5px;
-    width: 120px;
-    height: 120px;
-    transition: all 1.5s ease;
+a {
+    color: inherit;
 }
 
-.event-btn_description {
-    position: absolute;
-    padding: 5px;
-    top: 28px;
-    left: -227px;
-    width: 220px;
-    background-color: #0dcaf0;    
+a:hover {
+    color: white;
 }
 
-.event-btn_description::after {
-    content: '';
-   border: 8px solid transparent;
-   border-left: 9px solid #0dcaf0;
-   position: absolute;
-   right: -16px;
-   top: 50%;
-   margin-top: -8px;
+.btn:hover {
+    box-shadow: 0 0 10px 1px #EFCD76;
+    background-color: #EFCD76;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 1px #75825A;
 }
